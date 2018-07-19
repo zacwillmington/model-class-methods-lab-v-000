@@ -18,7 +18,7 @@ class Captain < ActiveRecord::Base
       binding.pry
       self.sailors.pluck(:id)
       self.motorboatists.pluck(:id)
-
+      
   end
 
   def self.non_sailors
